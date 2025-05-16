@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pimentel & Nogueira Advocacia</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f7f7f7;
+      color: #333;
+    }
+    header {
+      background: #004c99;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      margin: 10px 0 0;
+      font-size: 1.2em;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    .intro, .form-section, .contact-section {
+      margin-bottom: 40px;
+    }
+    .intro h2 {
+      color: #004c99;
+    }
+    .form-section form {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .form-section input, .form-section textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .form-section button {
+      background-color: #007bff;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .form-section button:hover {
+      background-color: #0056b3;
+    }
+    .contact-section a {
+      display: inline-block;
+      margin: 10px 10px 0 0;
+      text-decoration: none;
+      color: #004c99;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Pimentel & Nogueira</h1>
+    <p>Advocacia e Consultoria Jurídica</p>
+    <p><em>"Segurança jurídica e resultado para sua vida e seu futuro."</em></p>
+  </header>
+
+  <div class="container">
+    <section class="intro">
+      <h2>Especialistas em Direito Previdenciário e do Consumidor</h2>
+      <p>Atuamos com excelência na defesa dos seus direitos perante o INSS e contra abusos de empresas e prestadoras de serviço. Nossa missão é garantir justiça, segurança e resultados para nossos clientes.</p>
+    </section>
+
+    <section class="form-section">
+      <h2>Agende sua consulta</h2>
+      <form action="#">
+        <input type="text" placeholder="Seu nome" required>
+        <input type="email" placeholder="Seu e-mail" required>
+        <input type="tel" placeholder="Seu WhatsApp" required>
+        <textarea placeholder="Descreva brevemente seu problema"></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <section class="contact-section">
+      <h2>Fale conosco</h2>
+      <a href="https://wa.me/seunumerodowhatsapp" target="_blank">WhatsApp</a>
+      <a href="mailto:seuemail@dominio.com">E-mail</a>
+      <a href="https://instagram.com/seuusuario" target="_blank">Instagram</a>
+      <a href="https://facebook.com/seupagina" target="_blank">Facebook</a>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Pimentel & Nogueira Advocacia. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
